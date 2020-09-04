@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+
+body{
+    height: 100%;
+}
+.container{
+    width: fit-content;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.content{
+    width: fit-content;
+    height: fit-content;
+    margin:  0 auto;
+    padding: 20px;
+    max-width: 1200px;
+    font-family: 'Lato',sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.headContent{
+    width: fit-content;
+    height: fit-content;
+    margin:  0 auto;
+    text-align: center;
+}
+.heading{
+    font-weight: 200;
+    margin: 10px 0;
+    font-size: calc(32px + 0.3vw);
+}
+.subheading{
+    font-weight: 100;
+    font-size: calc(18px + 0.2vw);
+}
+.cards{
+    width: 100%;
+    height: fit-content;
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 505px;
+    height: fit-content;
+    min-width: 300px;
+    margin: 20px;
+    border: 1px solid rgba(117, 117, 117, 0.459);
+}
+.topCard{
+    width: 100%;
+    height: 70%;
+    background-color: thistle;
+    display: flex;
+    position: relative;
+}
+.topCard img{
+    width: 100%;
+}
+.overlayText{
+    position: absolute;
+    font-family: 'Lato',sans-serif;
+    font-weight: 100;
+    display: flex;
+    padding:25px;
+    bottom: 0;
+    color: white;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.788));
+}
+.overlayText h3{
+    margin-top: auto;
+    font-size: calc(18px + 0.2vw);
+}
+.bottomCard{
+    width: fit-content;
+    height: 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.bottomCard p{
+    font-family: 'Lato',sans-serif;
+    margin-bottom: 20px;
+    font-size:calc(18px + 0.2vw);
+}
+.learnMore{
+    background-color: rgb(125, 125, 243);
+    font-size: calc(16px + 0.2vw);
+    padding: 10px;
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+}
+.learnMore i{
+    border: solid rgb(255, 255, 255);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin: 0 2px;
+    transition: margin 300ms ease;
+}
+.learnMore:hover > i{
+    margin-left: 10px;
+}
+
+
+.midContent{
+    border: 1px solid rgba(117, 117, 117, 0.459);
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.midContent div{
+    width: 575px;
+    height: 470px;
+    min-width: 300px;
+}
+.textWrap{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+.textWrap h1{
+    font-family: 'Lato',sans-serif;
+    font-weight: 200;
+}
+.textWrap p{
+    font-size: calc(18px + 0.2vw);
+}
+.imgWrap{
+    display: flex;
+    background: url(../img/shot-3.png);
+    background-size: cover;
+    background-position: center;
+}
+.imgWrap img{
+    width: 100%;
+}
+
+
+.bottomContent{
+    width: 100%;
+    height: fit-content;
+    margin:  30px 0;
+    display: flex;
+    flex-direction: column;
+}
+.bottomContent h1{
+    width: fit-content;
+    font-family: 'Lato',sans-serif;
+    font-weight: bold;
+}
+.points{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    justify-content: center;
+    align-items: center;
+}
+.point{
+    width: 300px;
+    height: 300px;
+    min-width: 300px;
+    margin:30px;
+    display: flex;
+    flex-direction: column;
+}
+.point i{
+    color: rgb(125, 125, 243);
+}
+.point h2{
+    font-size: calc(28px + 0.2vw);
+    font-family: 'Lato',sans-serif;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.point p{
+    font-family: 'Lato',sans-serif;
+    font-size: calc(18px + 0.2vw);
+    text-align: justify;
+}
+
+.footer{
+    height: fit-content;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+}
+
+.footer p{
+    font-family: 'Lato',sans-serif;
+    font-size: calc(18px + 0.2vw);
+    margin-right: auto;
+}
+.socialLinks i{
+    margin: 10px;
+    font-size: calc(30px + 0.2vw);
+}
+
